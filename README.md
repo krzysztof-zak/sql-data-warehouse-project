@@ -274,22 +274,22 @@ sql-data-warehouse-project-main
 │   └── Naming Conventions.md
 │
 ├── scripts/
+│   ├── init_database.sql
 │   │
 │   ├── bronze/
 │   │   ├── ddl_bronze.SQL
 │   │   └── proc_load_bronze.SQL
 │   │
 │   ├── silver/
-│   │   └── init_database.SQL
+│   │   ├── ddl_silver.SQL
+│   │   └── proc_load_silver.SQL
 │   │
 │   └── gold/
 │       └── ddl_gold.sql
 │
 ├── tests/
-|   |
-|   ├──Quality_checks_silver.sql
-|   |
-│   └── Quality_checks_gold.sql
+│   ├── Quality_checks_gold.sql
+│   └── Quality_checks_silver.sql
 │
 ├── LICENSE
 └── README.md
