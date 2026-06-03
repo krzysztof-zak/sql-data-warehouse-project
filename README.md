@@ -53,36 +53,6 @@ Source Systems
 
 ## Architecture Diagram
 ![Data Warehouse Architecture](docs/Data%20Architecture.png)
-                      ┌────────────────────┐
-                      │    CRM System      │
-                      └─────────┬──────────┘
-                                │
-                      ┌─────────▼──────────┐
-                      │    ERP System      │
-                      └─────────┬──────────┘
-                                │
-                                ▼
-                   ┌─────────────────────────┐
-                   │      Bronze Layer       │
-                   │     Raw Source Data     │
-                   └───────────┬─────────────┘
-                               │
-                               ▼
-                   ┌─────────────────────────┐
-                   │      Silver Layer       │
-                   │ Cleansing & Validation  │
-                   └───────────┬─────────────┘
-                               │
-                               ▼
-                   ┌─────────────────────────┐
-                   │       Gold Layer        │
-                   │ Dimensional Model       │
-                   └───────────┬─────────────┘
-                               │
-                ┌──────────────┼──────────────┐
-                ▼              ▼              ▼
-      dim_customers   fact_sales   dim_products
-```
 
 ---
 
