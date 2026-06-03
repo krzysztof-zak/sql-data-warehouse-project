@@ -52,7 +52,7 @@ Source Systems
 ---
 
 ## Architecture Diagram
-
+https://github.com/krzysztof-zak/sql-data-warehouse-project/blob/de335b34758e629cc3d53695d4745e325662cef9/docs/Data%20Architecture.png
 ```text
                       ┌────────────────────┐
                       │    CRM System      │
