@@ -21,34 +21,6 @@ This project implements a modern SQL Data Warehouse using a multi-layer architec
 The solution integrates data from CRM and ERP systems, applies data quality checks and transformations, and delivers business-ready analytical datasets through a dimensional model optimized for reporting.
 
 **Note:** This project was completed as part of the *Data Warehouse Project Course* by Data With Baraa and serves as a portfolio project demonstrating practical SQL, ETL, and Data Warehousing concepts.
-
----
-
-## Solution Architecture
-
-```text
-Source Systems
-      │
-      ▼
-┌─────────────┐
-│   Bronze    │
-│ Raw Data    │
-└─────────────┘
-      │
-      ▼
-┌─────────────┐
-│   Silver    │
-│ Clean Data  │
-└─────────────┘
-      │
-      ▼
-┌─────────────┐
-│    Gold     │
-│ Business    │
-│ Analytics   │
-└─────────────┘
-```
-
 ---
 
 ## Architecture Diagram
